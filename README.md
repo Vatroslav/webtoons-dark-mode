@@ -14,10 +14,15 @@ Comic panels with white backgrounds stay white - that is the art itself.
 ## Permissions
 None besides running on `*.webtoons.com`. No background script, no storage, no data collection. The only network request it makes is re-reading the comments stylesheet the page already loads.
 
-## Installation (unpacked)
-1. Open `chrome://extensions`
-2. Enable **Developer mode** (top right)
-3. **Load unpacked** -> select this folder
-4. Reload any open Webtoons tabs
+## Installation
+It is not on the Chrome Web Store, so it is installed unpacked:
+
+1. Download `webtoons-dark-mode-1.0.0.zip` from [Releases](https://github.com/Vatroslav/webtoons-dark-mode/releases) and unzip it into a folder you will keep (Chrome loads it from there every time)
+2. Open `chrome://extensions`
+3. Enable **Developer mode** (top right)
+4. **Load unpacked** -> select that folder
+5. Reload any open Webtoons tabs
+
+Cloning the repository and pointing **Load unpacked** at it works the same way.
 
 To turn it off, switch the extension off at `chrome://extensions`.
