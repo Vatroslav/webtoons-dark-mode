@@ -1,5 +1,12 @@
 # Chrome Web Store listing
 
+**Status (Sep 19, 2026): on hold.** Developer registration could not be completed: the card
+form of the registration fee offers a limited country list (Czechia is there, Croatia is not),
+so a Croatian billing address can't be entered. The Google payments profile is already set to
+Croatia, so that is not the cause - Chrome Extensions DevRel has confirmed on the
+chromium-extensions group that some countries are not supported regions for the payment system
+behind the store, with no published list. Everything below is ready for the day that changes.
+
 Everything needed for the Developer Dashboard submission. Assets are in `store/assets/`,
 the upload package is built into `dist/` (git-ignored).
 
