@@ -1,0 +1,28 @@
+/* Loaded before the page renders, so there is no white flash while dark.js
+   builds the remapped colors from the site's own stylesheets. */
+html {
+  background-color: #121212 !important;
+  color-scheme: dark;
+}
+
+/* Site-specific pieces drawn with images instead of CSS colors, which dark.js
+   can't remap. */
+
+/* Rank digits in the "Trending & Popular" sidebar (black sprite), the round
+   "back to top" button (white SVG sprite) and the search icon in the header. */
+.num_area [class*="ico_n"],
+.btn_top,
+.header_right .btn_search::before {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+/* "Recently viewed" side panel: the panel is a white background image, the tab
+   that opens it a white sprite. The tab's label is inverted back so it stays light. */
+.recently_area {
+  background-image: none !important;
+  background-color: #1e1e1e !important;
+}
+.recently_area .menu,
+.recently_area .menu .t_recently {
+  filter: invert(1) hue-rotate(180deg);
+}
