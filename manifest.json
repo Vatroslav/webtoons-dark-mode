@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Webtoons Dark Mode",
   "description": "Dark mode for webtoons.com on desktop. Comic images are left untouched.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "content_scripts": [
     {
       "matches": ["*://*.webtoons.com/*"],
@@ -10,6 +10,12 @@
       "js": ["dark.js"],
       "run_at": "document_start",
       "all_frames": true
+    },
+    {
+      "matches": ["*://*.webtoons.com/*"],
+      "js": ["preload.js"],
+      "run_at": "document_end",
+      "all_frames": false
     }
   ],
   "icons": {
