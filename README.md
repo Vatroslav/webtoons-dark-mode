@@ -24,7 +24,7 @@ None besides running on `*.webtoons.com`. No background script, no storage, no d
 ## Installation
 It is not on the Chrome Web Store, so it is installed unpacked:
 
-1. Download `webtoons-dark-mode-1.0.0.zip` from [Releases](https://github.com/Vatroslav/webtoons-dark-mode/releases) and unzip it into a folder you will keep (Chrome loads it from there every time)
+1. Download the latest `webtoons-dark-mode-*.zip` from [Releases](https://github.com/Vatroslav/webtoons-dark-mode/releases) and unzip it into a folder you will keep (Chrome loads it from there every time)
 2. Open `chrome://extensions`
 3. Enable **Developer mode** (top right)
 4. **Load unpacked** -> select that folder
